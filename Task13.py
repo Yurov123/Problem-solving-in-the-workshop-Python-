@@ -40,3 +40,22 @@ for i in range(len(str1) - len(str2)):
     if str2 in str1[i:i+len(str2)]:
         count += 1
 print(f"Вторая строка входит в первую {count} раз(а).")
+
+exid()
+
+def text_find(a,b):
+    """
+    Function will find occurence of word in the text
+    """
+    count = 0
+    i = 0
+    while i <= len(a):
+        if b in a[i: i+len(b)]:
+            #print("Найдено повторение номер", count+1)
+            count += 1
+            i += len(b)
+        else:
+            i += 1
+    return count
+
+
