@@ -5,7 +5,7 @@ number = int(input("Введите число: "))
 d = {i : 3*i + 1 for i in range(1,number+1)}
 print(f"Итоговая последовательность: {d}")
 
-exid()
+exit()
 
 import os
 from typing import Dict
@@ -15,7 +15,7 @@ os.system("cls")
 Dictionary = {n:3*n+1 for n in range (1,7)}
 print (Dictionary)
 
-exid()
+exit()
 
 from random import randint
 def get_dict(n):
@@ -24,7 +24,7 @@ n = randint(1, 20)
 print(n)
 print(get_dict(n))
 
-exid()
+exit()
 
 slovar = {}
 n = int(input('n = '))
