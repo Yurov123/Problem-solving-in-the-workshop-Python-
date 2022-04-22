@@ -6,7 +6,7 @@ for i in range(len(str1) - len(str2)):
         count += 1
 print(f"Вторая строка входит в первуюф {count} раз(а).")
 
-exid()
+exit()
 
 from itertools import count
 import os
@@ -26,7 +26,7 @@ str2 = 'из'
 print('Количество вхождений второй строки в первую: ',
       str1.count(str2), '\n')
 
-exid()
+exit()
 
 str1 = input("Введите первую строку для проверки:")
 str2 = input("Введите вторую строку для поиска в первой строке:")
@@ -41,7 +41,7 @@ for i in range(len(str1) - len(str2)):
         count += 1
 print(f"Вторая строка входит в первую {count} раз(а).")
 
-exid()
+exit()
 
 def text_find(a,b):
     """
@@ -58,7 +58,7 @@ def text_find(a,b):
             i += 1
     return count
 
-exid()
+exit()
 
 # str1= input('First string: ')
 # str2= input('Second string: ')
