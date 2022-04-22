@@ -11,7 +11,7 @@ for i in range(N):
 print(list)
 
 
-exid()
+exit()
 
 
 import os
@@ -27,7 +27,7 @@ for N in range (1,10):
     list.append (sub(N)) # Добавление элемента в конец списка
 print (list)
 
-exid()
+exit()
 
 count = int(input('Введите количество элементов: '))
 num = 1
@@ -39,7 +39,7 @@ for i in range (0, count - 1):
 
 print(list)
 
-exid()
+exit()
 
 def power(s):
     """
